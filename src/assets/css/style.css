@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Winky Sans", sans-serif !important;
+    background-color: #f2f2f2;
+}
+
+p {
+    font-family: "Winky Sans", sans-serif !important; 
+}
+
+
+/*********************************************************************************************/
+
+/**********header styling*********/
+.headerdiv .headerMain {
+    background-color: #fff;
+    color: #030303;
+}
+
+.searchBar .searchProducts {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    color: #94A3B8;
+    font-family: "Winky Sans", sans-serif !important;
+}
+
+.searchBar .serachicon {
+    color: #94A3B8;
+}
+
+.headerdiv .websiteName {
+    font-family: "Winky Sans", sans-serif !important;
+    font-size: 20px;
+}
+
+.logoImage img {
+    height: 55px;
+    width: auto;
+    max-width: 100px;
+}
+
+/*******banner-carousel styling********/
+
+.bannerCarousel {
+    background-color: #FF784B;
+    height: 400px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: #FFD700;
+  color: black;
+  transform: scale(1.2);
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 25px;
+}
+
+/*******product list styling*******/
+
+.productList {
+    background-color: #f2f2f2;
+}
+
+.productList img {
+    height: 250px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.productList .headphoneimg img {
+    width: 235px;
+}
+
+.productLineup .productCard {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.productCard.firstcard {
+    margin-left: 20px;
+}
+
+.productCard.lastcard {
+    margin-right: 20px;
+    height: 425.5px;
+}
+
+.productLineup {
+    margin-top: 30px;
+}
+
+.productDescription .productBrand {
+    font-size: 18px;
+}
+
+.productDescription .shortdescription {
+    font-size: 14px;
+    color: #808080;
+}
+
+.productDescription .productBrand:hover {
+    color: #FF784B;
+    cursor: pointer;
+}
+
+.productDescription .productCost {
+    font-size: 24px;
+}
+
+.productList .productCard .addtoCartbtn button {
+    background-color: #FF784B;
+    border-color: #FF784B;
+    border-radius: 25px;
+    margin-top: 10px;
+    text-transform: math-auto;
+}
+
+/*********footer styling*********/
+
+.footer {
+    background-color: #141414;
+    padding: 15px;
+}
+
+.footer p {
+    cursor: pointer;
+}
+
+.footer .footerTitle {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer .footerlinks {
+    color: #979797;
+}
+
+/********NavStrip styling**********/
+
+.navStrip .navTab {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    background-color: #008080;
+}
+
+.navStrip .navTab .navstripTitle {
+    font-size: 14px;
+    font-family: "Winky Sans", sans-serif !important;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.navStrip a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* --------Pages styling --------- */
+
+/*********electronics-page styling*************/
+
+
+.electronicsPage .searchFilter {
+    margin-top: 20px;
+}
+
+.electronicsPage .searchBar .searchProducts {
+    color: #000;
+}
+
+.electronicsPage .searchBar .serachicon {
+    color: #000;
+}
+
+.electronicsPage .searchBar {
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.electronicsPage .productLineup {
+    margin-top: 15px;
+}
+
+.electronicsPage .section-header {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.electronicsPage .productCard.lastcard {
+    height: auto;
+}
+
+.electronicsPage .productCard.lastcard.watchCard {
+    height: 467px;
+}
